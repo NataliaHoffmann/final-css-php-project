@@ -21,7 +21,7 @@ if (!isset($_SESSION['user_id'])) {
     <meta name="keywords" content="yoga, excersise, webpage">
     <title> Your page - Blue Rock Yoga Studio</title>
     <!--stylesheets-->
-    <link rel="stylesheet" href="./css/indexstyles.css"> <!-- css -->
+    <link rel="stylesheet" href="./css/yourpage.css"> <!-- css -->
     <link rel="icon" href="./images/favicon.png"> <!-- icon -->
 </head>
 <body>
