@@ -1,0 +1,100 @@
+/* styling for bookings */
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* fieldset styles */
+fieldset {
+    border: 2px solid #71a8e3;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #3b6087;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+}
+
+select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+select:focus {
+    border-color: #5c93ce;
+}
+
+button {
+    padding: 10px;
+    background-color: #567aa0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* log out button style */
+.btn-logout {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2c244a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 150px;
+    margin: 20px auto;
+}
+
+.btn-logout:hover {
+    background-color: #1d2e6a;
+}
